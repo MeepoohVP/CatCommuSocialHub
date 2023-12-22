@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 export default function Post() {
   return (
     <main className="relative h-full">
-      <div className="fixed h-full md:h-[87.5%] max-w-lg mx-auto left-1/2 -translate-x-1/2 lg:left-0 lg:translate-x-0 md:w-[42%] lg:w-[30%] mt-2 overflow-auto">
+      <div className="fixed h-full md:h-[87.5%] w-full max-w-lg mx-auto left-1/2 -translate-x-1/2 lg:left-0 lg:translate-x-0 md:w-[42%] lg:w-[30%] mt-2 overflow-auto">
                 <div className="sticky top-0 z-30"><input type="text" className="input w-full bg-base-300" placeholder="search"/></div>
             <Channel/><Channel/><Channel/><Channel/><Channel/><Channel/><Channel/><Channel/><Channel/>
             </div>
